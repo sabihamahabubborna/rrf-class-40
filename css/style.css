@@ -1,0 +1,163 @@
+/* Base css */
+body{
+    background-color: 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+   font-family: 'Vidaloka', serif;
+}
+a:hover{text-decoration: none;}
+.section-padding{
+  padding:150px 0;
+  background-size: cover;
+  background-position: center;
+
+
+}
+.section-bg-01{
+	background-image: url(../img/2.jpg);
+	
+    
+}
+.section-bg-02{
+	background-image: url(../img/3.jpg);
+	
+   
+}
+.section-bg {
+	background-size: cover;
+	 background-position: center;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+}
+
+
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+body{
+	 font-size: 16px;
+    line-height: 1.8;
+}
+
+
+a.boxed-btn {
+    background: #C89F5B;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 25px;
+       margin-bottom: 50px;
+}
+.bordered-img {
+    
+    width: 450px;
+    height: 550px;
+    margin-right: -200px;
+    position: relative;
+    z-index: 2;
+}
+
+.bordered-img:before {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    content: "";
+    right: -25px;
+    bottom: -25px;
+    border: 2px solid #C79F5A;
+    z-index: -1;
+}
+
+.bordered-img.left-side-bg {
+    margin-left: -225px;
+    margin-right: 0;
+
+}
+/*responsive css*/
+/*medium layout: 1200px*/
+
+@media only screen and (min-width: 992px)  and (max-width: 1200px) {
+   .bordered-img {
+    width: 354px;
+    height: 387px;
+    
+    
+}
+.bordered-img.left-side-bg {
+    margin-left: -9px;
+
+}
+a.boxed-btn {
+    
+    margin-bottom: 25px;
+}
+}
+/* Tablet layout: 768px*/
+
+@media only screen and (min-width: 768px)  and (max-width: 991px) {
+	 .bordered-img {
+    width: 96%;
+    height: 387px;
+    
+    
+}
+.bordered-img.left-side-bg {
+    margin-left: 0;
+    margin-right: 0;
+     margin-top: 100px;
+
+}
+}
+
+/* Mobile layout: 320px*/
+
+@media only screen and (min-width: 767px)  {
+ .bordered-img {
+    width: 96%;
+    height: 387px;
+    
+    
+}
+.bordered-img.left-side-bg {
+    margin-left: 0;
+    margin-right: 0;
+     margin-top: 100px;
+
+}
+   
+}
+/* Wide Mobile layout: 480px*/
+
+@media only screen and (min-width: 480px)  and (max-width: 767px) {
+   .bordered-img {
+    width: 96%;
+    height: 387px;
+    
+    
+}
+.bordered-img.left-side-bg {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 100px;
+
+}
+}
